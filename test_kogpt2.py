@@ -1,7 +1,7 @@
 import torch
 from dialogLM.Kogpt2 import DialogKoGPT2
 from kogpt2_transformers import get_kogpt2_tokenizer
-save_ckpt_path = './dialogLM/checkpoint/kogpt_wellness_epoch5_batch2.pth'
+save_ckpt_path = './dialogLM/checkpoint/kogpt2-data2_0_ep5.pth'
 
 assert torch.cuda.is_available()
 
