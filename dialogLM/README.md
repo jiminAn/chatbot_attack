@@ -6,4 +6,4 @@
   - using kogpt2 pretrained model
   - Fine-tuning for psychological counseling chatbot
     - using [AIhub's wellness script data set](https://aihub.or.kr/opendata/keti-data/recognition-laguage/KETI-02-006)
-    - trainig script [here]()
+    - trainig script [here](https://github.com/jiminAn/chatbot_attack/blob/main/training_kogpt2.py)
