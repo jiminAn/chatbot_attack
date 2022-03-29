@@ -1,7 +1,5 @@
-import os
 import numpy as np
 from tqdm import tqdm
-import sys
 import os.path
 
 import torch
@@ -10,7 +8,7 @@ from dialogLM.DataLoader import AutoRegressiveDataset
 from dialogLM.Kogpt2 import DialogKoGPT2
 
 root_path='./dialogLM'
-data_path = f"{root_path}/data/wellness.user_chatbot.16k"
+data_path = f"{root_path}/data/wellness.user_chatbot.16k.train"
 checkpoint_path =f"{root_path}/checkpoint"
 save_ckpt_path = f"{checkpoint_path}/kogpt_wellness_epoch5_batch2.pth"
 
