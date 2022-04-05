@@ -13,7 +13,7 @@ model.eval()
 tokenizer = get_kogpt2_tokenizer()
 output_size = 200
 
-test_data_path = './dialogLM/data/wellness.user_chatbot.16k.test.q'
+test_data_path = './dialogLM/data/wellness.user_chatbot.16k.test.ans'
 questions = []
 with open(test_data_path, 'rt', encoding='UTF8') as f:
     for line in f.readlines():
